@@ -43,7 +43,7 @@ function main(sources) {
             ]),
             div('.calc-section.calc-inputs', [
                 div('.calc-input', [
-                    label({ attrs: { for: 'weight-in-lbs' } }, 'How much do you weight?'),
+                    label({ attrs: { for: 'weight-in-lbs' } }, 'How much do you weigh?'),
                     input('#weight-in-lbs', { attrs: { type: 'number', value: model.weightInLbs, size: 4 } }),
                     span('.calc-input-units', 'pounds')
                 ]),
